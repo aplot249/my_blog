@@ -112,7 +112,7 @@ if "Linux" in platform.platform():
             'PORT': '3306',
             'NAME': 'dsdjango',
             'USER': 'root',
-            'PASSWORD': 'qq1010351486',
+            'PASSWORD': 'qq1788lover',
             'OPTIONS': {
                 'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
                 'charset': 'utf8mb4'
