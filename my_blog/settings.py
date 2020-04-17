@@ -88,25 +88,37 @@ CKEDITOR_IMAGE_BACKEND = 'pillow'
 if "Windows" in platform.platform():
     DEBUG = True
     STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',  # 'django.db.backends.sqlite3',
+            'HOST': '127.0.0.1',  # 'NAME': os.path.join(BASE_DIR, 'db.mysq')#'db.sqlite3'),
+            'PORT': '3306',
+            'NAME': 'dsdjango',
+            'USER': 'qq1788lover',
+            'PASSWORD': 'qq1010351486',
+            'OPTIONS': {
+                'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+                'charset': 'utf8mb4'
+            },
+        }
+    }
 if "Linux" in platform.platform():
     DEBUG = True
     STATIC_ROOT = os.path.join(BASE_DIR, 'collect_static')  # 静态文件收集目录
-
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',  # 'django.db.backends.sqlite3',
-        'HOST': '127.0.0.1',  # 'NAME': os.path.join(BASE_DIR, 'db.mysq')#'db.sqlite3'),
-        'PORT': '3306',
-        'NAME': 'dsdjango',
-        'USER': 'qq1788lover',
-        'PASSWORD': 'qq1010351486',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-            'charset': 'utf8mb4'
-        },
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',  # 'django.db.backends.sqlite3',
+            'HOST': '127.0.0.1',  # 'NAME': os.path.join(BASE_DIR, 'db.mysq')#'db.sqlite3'),
+            'PORT': '3306',
+            'NAME': 'dsdjango',
+            'USER': 'root',
+            'PASSWORD': 'qq1010351486',
+            'OPTIONS': {
+                'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+                'charset': 'utf8mb4'
+            },
+        }
     }
-}
 
 
 # Password validation
