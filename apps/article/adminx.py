@@ -11,7 +11,7 @@ class ArticleColumnAdminx(object):
     show_bookmarks = False
 
 class ArticlePostAdminx(object):
-    list_display = ['author','avatar','column','tags','title','body','total_views','likes','created','updated']
+    list_display = ['author','avatar','column','tags','title','short_body','total_views','likes','created','updated']
     search_fields = ['author','avatar','column','tags','title','body','total_views','likes','created','updated']
     list_filter = ['author','avatar','column','tags','title','body','total_views','likes','created','updated']
     model_icon = 'fa fa-plane'

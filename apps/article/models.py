@@ -89,3 +89,12 @@ class ArticlePost(models.Model):
             return True
         else:
             return False
+
+    def short_body(self):
+        if len(str(self.body)) > 100:
+            return '{}...'.format(str(self.body)[0:100])
+        else:
+            return str(self.body)
+
+    short_body.allow_tags = True
+    short_body.short_description = '缩略内容'

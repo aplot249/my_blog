@@ -2,17 +2,17 @@
 #
 if [ $1 = 'start' ];then
     cd /home/my_blog
-    service nginx restart && service redis-server restart && uwsgi --ini uwsgi.ini
+    uwsgi --ini uwsgi.ini
 elif [ $1 = 'stop' ];then
     cd /home/my_blog
     uwsgi --stop uwsgi.pid
     rm -rf uwsgi.pid uwsgi.log
-    rm -rf ../*log
+    rm -rf ../startcelery.log
     #supervisorctl stop all
-    ps aux | grep uwsgi |awk '{print$2}' | xargs kill -9
-    ps aux | grep celery |awk '{print$2}' | xargs kill -9
-    ps aux | grep python3 |awk '{print$2}' | xargs kill -9
-    ps aux|head -1;ps aux|grep -v PID|sort -rn -k +4|head
+#    ps aux | grep uwsgi |awk '{print$2}' | xargs kill -9
+#    ps aux | grep celery |awk '{print$2}' | xargs kill -9
+#    ps aux | grep python3 |awk '{print$2}' | xargs kill -9
+#    ps aux|head -1;ps aux|grep -v PID|sort -rn -k +4|head
 elif [ $1 = 'restart' ];then
     bash operate.sh stop
     bash operate.sh start
