@@ -1,1 +1,3 @@
-﻿
+﻿*pyc
+uwsgi.log
+uwsgi.pid
