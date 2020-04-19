@@ -74,3 +74,9 @@ def post_comment(request, article_id, parent_comment_id=None):
     # 处理其他请求
     else:
         return HttpResponse("仅接受GET/POST请求。")
+
+
+
+def comment_delete(request):
+    Comment.objects.get(id=request.POST.get('id')).delete()
+    return HttpResponse({'e':'ok'})

@@ -22,19 +22,12 @@
                 <div>
                     作者：{{ article.author }}
                     {% if user == article.author %}
-
                         <!-- · <a href="#" onclick="confirm_delete()">删除文章</a> -->
                         · <a href="#" onclick="confirm_safe_delete()">删除文章</a>
-                        <form 
-                            style="display:none;" 
-                            id="safe_delete"
-                            action="{% url 'article:article_safe_delete' article.id %}" 
-                            method="POST"
-                        >
+                        <form style="display:none;" id="safe_delete" action="{% url 'article:article_safe_delete' article.id %}"  method="POST" >
                         {% csrf_token %}
                             <button type="submit">发送</button>
                         </form>
-
                         · <a href="{% url "article:article_update" article.id %}">
                             编辑文章
                         </a>
@@ -51,14 +44,7 @@
 
             <!-- 点赞 -->
             <div style="text-align:center;" class="mt-4">
-                <button class="btn btn-outline-danger"
-                        type="button"
-                        onclick="validate_is_like(
-                                '{% url 'article:increase_likes' article.id %}',
-                                {{ article.id }},
-                                {{ article.likes }}
-                            )"
-                >
+                <button class="btn btn-outline-danger" type="button" onclick="validate_is_like('{% url 'article:increase_likes' article.id %}',{{ article.id }},{{ article.likes }})">
                     <span>点赞</span>
                     <span>
                         <i class="fas fa-heart"></i>
@@ -74,18 +60,14 @@
             <div class="row justify-content-end">
                 {% if next_article %}
                 <div class="col-auto mr-auto">
-                    <a  href="{{ next_article.get_absolute_url }}" 
-                        class="btn btn-info"
-                        >
+                    <a  href="{{ next_article.get_absolute_url }}" class="btn btn-info">
                         {{ next_article.title }}
                     </a>
                 </div>
                 {% endif %}
             {% if pre_article %}
                 <div class="col-auto">
-                    <a  href="{{ pre_article.get_absolute_url }}" 
-                    class="btn btn-info" 
-                    >
+                    <a  href="{{ pre_article.get_absolute_url }}"  class="btn btn-info">
                         {{ pre_article.title }}
                     </a>
                 </div>
@@ -97,10 +79,7 @@
             <hr>
             {% if user.is_authenticated %}
                 <div>
-                    <form 
-                        action="{% url 'comment:post_comment' article.id %}" 
-                        method="POST"
-                    >
+                    <form  action="{% url 'comment:post_comment' article.id %}"  method="POST">
                     {% csrf_token %}
                         <div class="form-group">
                             <label for="body">
@@ -135,24 +114,20 @@
                 <!-- 遍历树形结构 -->
                 {% recursetree comments %}
                     {% with comment=node %}
-                        <div class="{% if comment.reply_to %}
-                                    offset-1 col-11
-                                    {% else %}
-                                    col-12
-                                    {% endif %}"
-                            id="comment_elem_{{ comment.id }}" 
-                        >
+                        <div class="{% if comment.reply_to %} offset-1 col-11 {% else %} col-12 {% endif %}" id="comment_elem_{{ comment.id }}">
                             <hr>
                             <p>
                                 <strong style="color: pink">
                                     {{ comment.user }}
                                 </strong> 
-
+                                {% ifequal comment.user request.user %}
+                                    <button class="btn btn-light btn-sm text-muted"  onclick="comment_delete({{ comment.id }})" >
+                                        删除此条回复
+                                    </button>
+                                {% endifequal %}
                                 <!-- 显示被回复人 -->
                                 {% if comment.reply_to %}
-                                    <i class="far fa-arrow-alt-circle-right" 
-                                       style="color: cornflowerblue;"
-                                    ></i>
+                                    <i class="far fa-arrow-alt-circle-right" style="color: cornflowerblue;" ></i>
                                     <strong style="color: pink">
                                         {{ comment.reply_to }}
                                     </strong> 
@@ -160,7 +135,6 @@
 
                             </p>
                             <div>{{ comment.body|safe }}</div>
-
                             <div>
                                 <span style="color: gray">
                                     {{ comment.created|date:"Y-m-d H:i" }}
@@ -168,29 +142,18 @@
 
                                 <!-- 加载 modal 的按钮 -->
                                 {% if user.is_authenticated %}
-                                    <button type="button" 
-                                            class="btn btn-light btn-sm text-muted" 
-                                            onclick="load_modal({{ article.id }}, {{ comment.id }})"
-                                    >
+                                    <button type="button" class="btn btn-light btn-sm text-muted"  onclick="load_modal({{ article.id }}, {{ comment.id }})">
                                         回复
                                     </button>
                                 {% else %}
-                                    <a class="btn btn-light btn-sm text-muted" 
-                                        href="{% url 'userprofile:login' %}"
-                                    >
+                                    <a class="btn btn-light btn-sm text-muted"  href="{% url 'userprofile:login' %}" >
                                         回复
                                     </a>
                                 {% endif %}
                             </div>
 
                             <!-- Modal -->
-                            <div class="modal fade" 
-                                 id="comment_{{ comment.id }}" 
-                                 tabindex="-1" 
-                                 role="dialog" 
-                                 aria-labelledby="CommentModalCenter" 
-                                 aria-hidden="true"
-                            >
+                            <div class="modal fade" id="comment_{{ comment.id }}" tabindex="-1" role="dialog" aria-labelledby="CommentModalCenter" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content" style="height: 480px">
                                         <div class="modal-header">
@@ -214,15 +177,15 @@
         </div>
 
         <!-- 目录 -->
-        <div class="col-3 mt-4" id="sidebar" class="sidebar">
-            <div class="sidebar__inner">
-                <h4><strong>目录</strong></h4>
-                <hr>
-                <div>
-                    {{ toc|safe }}
-                </div>
-            </div>
-        </div>
+{#        <div class="col-3 mt-4" id="sidebar" class="sidebar">#}
+{#            <div class="sidebar__inner">#}
+{#                <h4><strong>目录</strong></h4>#}
+{#                <hr>#}
+{#                <div>#}
+{#                    {{ toc|safe }}#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
     </div>
 </div>
 
@@ -384,6 +347,22 @@
         // 刷新并定位到锚点
         window.location.replace(next_url + "#comment_elem_" + new_comment_id);
     };
+</script>
+
+<script>
+function comment_delete(comment_id){
+    $.ajax({
+            url: '{% url "comment:delete_comment" %}',
+            type: 'POST',
+            data: {id: comment_id},
+            // 成功回调
+            success: function(rep){
+                if(rep.e = 'ok'){
+                    window.location.reload();
+                }
+            }
+        })
+}
 </script>
 
 {% endblock script %}

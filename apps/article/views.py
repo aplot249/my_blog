@@ -106,23 +106,23 @@ def article_detail(request, id):
     else:
         next_article = None
     # Markdown 语法渲染
-    md = markdown.Markdown(
-        extensions=[
-        # 包含 缩写、表格等常用扩展
-        'markdown.extensions.extra',
-        # 语法高亮扩展
-        'markdown.extensions.codehilite',
-        # 目录扩展
-        'markdown.extensions.toc',
-        ]
-    )
-    article.body = md.convert(article.body)
+    # md = markdown.Markdown(
+    #     extensions=[
+    #     # 包含 缩写、表格等常用扩展
+    #     'markdown.extensions.extra',
+    #     # 语法高亮扩展
+    #     'markdown.extensions.codehilite',
+    #     # 目录扩展
+    #     'markdown.extensions.toc',
+    #     ]
+    # )
+    # article.body = md.convert(article.body)
     # 为评论引入表单
     comment_form = CommentForm()
     # 需要传递给模板的对象
-    context = { 
+    context = {
         'article': article,
-        'toc': md.toc,
+        # 'toc': md.toc,
         'comments': comments,
         'pre_article': pre_article,
         'next_article': next_article,
@@ -130,6 +130,8 @@ def article_detail(request, id):
     }
     # 载入模板，并返回context对象
     return render(request, 'article/detail.html', context)
+
+
 
 
 # 写文章的视图

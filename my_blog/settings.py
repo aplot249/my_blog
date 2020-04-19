@@ -216,7 +216,7 @@ CKEDITOR_CONFIGS = {
             {'name': 'links', 'items': ['Link', 'Unlink', 'Anchor']},
             {'name': 'insert','items': ['Image',
                                         # 'Flash',
-                                        'Table', 'HorizontalRule', 'Smiley', 'SpecialChar', 'PageBreak', 'Iframe']},
+                                        'Table', 'HorizontalRule', 'Smiley','CodeSnippet','SpecialChar', 'PageBreak', 'Iframe']},
             {'name': 'styles', 'items': ['Styles', 'Format', 'Font', 'FontSize']},
             {'name': 'colors', 'items': ['TextColor', 'BGColor']},
             {'name': 'tools', 'items': ['Maximize', 'ShowBlocks']},
@@ -238,7 +238,9 @@ CKEDITOR_CONFIGS = {
                 'clipboard',
                 'dialog',
                 'dialogui',
-                'elementspath'
+                'elementspath',
+                'codesnippet',
+                'prism',
             ]),
     }
 }
