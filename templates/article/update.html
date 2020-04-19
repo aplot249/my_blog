@@ -4,6 +4,8 @@
 {% block title %} 更新文章 {% endblock title %}
 <!-- 写入 base.html 中定义的 content -->
 {% block content %}
+{{ article_post_form.media }}
+
 <!-- 写文章表单 -->
 <div class="container">
     <div class="row">
@@ -58,18 +60,12 @@
                 <!-- 文章正文 -->
                 <div class="form-group">
                     <label for="body">文章正文</label>
-                    <!-- 文本域不需要 value 属性，直接在标签体中嵌入数据即可 -->
-{#                    <textarea type="text" class="form-control" id="body" name="body" rows="12">{{ article.body }}</textarea>#}
                 </div>
                 <div>
                     {{ article_post_form.media }}
-                    {{ article_post_form.body }}
-{#                    <textarea type="text" class="form-control" id="body" name="body" rows="12">{{ article.body | safe }}</textarea>#}
-{#                    <script>#}
-{#                        // Replace the <textarea id="editor1"> with a CKEditor#}
-{#                        // instance, using default configuration.#}
-{#                        CKEDITOR.replace( 'body' );#}
-{#                    </script>#}
+{#                    {{ article_post_form.body }}#}
+                    <div hidden id="div_ckeditor">{{ article.body | safe }}</div>
+                    <textarea type="text" class="form-control" id="body" name="body" rows="12"></textarea><!-- 文本域不需要 value 属性，直接在标签体中嵌入数据即可 -->
                 </div>
                 <!-- 提交按钮 -->
                 <button type="submit" class="btn btn-primary">完成</button>
@@ -77,12 +73,10 @@
         </div>
     </div>
 </div>
-
 <script src="{% static 'jquery/jquery-3.3.1.js' %}"></script>
+
 <script>
-{#    console.log($("#cke_id_body iframe").find('body'));#}
-{#    $("#cke_id_body iframe").find('body').html("fgfdgfdg")#}
-{#    var body = document.getElementById('cke_id_body');#}
-{#    console.log(body)#}
+    CKEDITOR.replace('body',{ height: '240px', width: '100%' });
+    CKEDITOR.instances.body.setData($('#div_ckeditor').html());
 </script>
 {% endblock content %}
