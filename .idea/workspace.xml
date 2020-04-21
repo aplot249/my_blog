@@ -2,13 +2,306 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3fc45ec-8b4e-4e0d-ae14-662faf456ea0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/00.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/avatar/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/fly.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/fork.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/layim.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/logo-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/other/1437100018023.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/other/study-a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/pay.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/uer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/100.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/101.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/102.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/103.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/104.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/105.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/106.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/107.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/108.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/109.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/110.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/111.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/112.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/113.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/114.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/115.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/116.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/117.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/118.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/119.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/120.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/121.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/122.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/123.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/124.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/125.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/126.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/127.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/128.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/129.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/130.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/131.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/132.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/133.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/134.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/74.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/75.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/76.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/77.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/78.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/79.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/80.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/82.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/83.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/84.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/85.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/86.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/87.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/88.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/89.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/90.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/91.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/92.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/93.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/94.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/95.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/96.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/97.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/98.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/99.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/emoticons/qq.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/image/images/align_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/image/images/align_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/image/images/align_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/image/images/refresh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/skins/common/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/skins/common/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/skins/default/default.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/skins/tinymce/tinymce.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/modules/laydate/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/modules/layer/default/icon-ext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/modules/layer/default/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/modules/layer/default/loading-0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/modules/layer/default/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/modules/layer/default/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/font/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/font/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/font/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/images/face/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/full.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/global.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/kindeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/image/image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/plugins/link/link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/skins/common/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/skins/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/js/skins/tinymce.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/layui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/layui.mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/modules/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/modules/laydate/laydate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/css/modules/layer/default/layer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/font/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/dest/layui.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/flow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/laydate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/layedit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/laypage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/laytpl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/mobile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/lay/modules/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui/layui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/layui/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/layui/detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/layui/head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/layui/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/layui/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/layui/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/article/urls.py" afterPath="$PROJECT_DIR$/apps/article/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/article/views.py" afterPath="$PROJECT_DIR$/apps/article/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/comment/urls.py" afterPath="$PROJECT_DIR$/apps/comment/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/comment/models.py" afterPath="$PROJECT_DIR$/apps/comment/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/comment/views.py" afterPath="$PROJECT_DIR$/apps/comment/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_blog/settings.py" afterPath="$PROJECT_DIR$/my_blog/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/article/create.html" afterPath="$PROJECT_DIR$/templates/article/create.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/article/detail.html" afterPath="$PROJECT_DIR$/templates/article/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/comment/reply.html" afterPath="$PROJECT_DIR$/templates/comment/reply.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,46 +319,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="reply.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/comment/reply.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/article/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1483">
-              <caret line="357" column="19" lean-forward="true" selection-start-line="357" selection-start-column="19" selection-end-line="357" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/comment/views.py">
+        <entry file="file://$PROJECT_DIR$/apps/article/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+            <state relative-caret-position="463">
+              <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
               <folding>
-                <element signature="e#0#64#0" expanded="true" />
+                <element signature="e#2992#3007#0" expanded="false" />
+                <element signature="e#3822#4629#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/comment/urls.py">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/layui/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,6 +356,8 @@
       <find>detail</find>
       <find>toc</find>
       <find>#comment_elem_</find>
+      <find>load_modal</find>
+      <find>发送</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,9 +382,7 @@
         <option value="$PROJECT_DIR$/apps/notice/__init__.py" />
         <option value="$PROJECT_DIR$/apps/comment/adminx.py" />
         <option value="$PROJECT_DIR$/apps/notice/adminx.py" />
-        <option value="$PROJECT_DIR$/templates/article/create.html" />
         <option value="$PROJECT_DIR$/apps/userprofile/adminx.py" />
-        <option value="$PROJECT_DIR$/apps/comment/models.py" />
         <option value="$PROJECT_DIR$/templates/footer.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/requirements.txt" />
@@ -126,10 +398,15 @@
         <option value="$PROJECT_DIR$/apps/article/adminx.py" />
         <option value="$PROJECT_DIR$/my_blog/settings.py" />
         <option value="$PROJECT_DIR$/apps/article/urls.py" />
-        <option value="$PROJECT_DIR$/apps/article/views.py" />
         <option value="$PROJECT_DIR$/apps/comment/urls.py" />
-        <option value="$PROJECT_DIR$/apps/comment/views.py" />
+        <option value="$PROJECT_DIR$/apps/comment/models.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/article/create.html" />
+        <option value="$PROJECT_DIR$/templates/comment/reply.html" />
         <option value="$PROJECT_DIR$/templates/article/detail.html" />
+        <option value="$PROJECT_DIR$/apps/comment/views.py" />
+        <option value="$PROJECT_DIR$/apps/article/views.py" />
+        <option value="$PROJECT_DIR$/templates/layui/index.html" />
       </list>
     </option>
   </component>
@@ -163,6 +440,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,21 +482,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="comment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_blog" />
+              <option name="myItemId" value="layui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,31 +497,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,16 +511,16 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps\comment" />
-      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\my_blog\static\layui" />
+      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\my_blog\templates\layui" />
       <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\my_blog" />
       <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps\userprofile" />
       <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps\notice" />
-      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps\article" />
-      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps\comment" />
+      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.django_blog_tutorial">
@@ -568,17 +813,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12178112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14377682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20744081" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20518602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -605,20 +850,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/notice/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/notice/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/notice/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -766,13 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/userprofile/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -798,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,14 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2010">
@@ -857,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="79" column="63" lean-forward="false" selection-start-line="79" selection-start-column="63" selection-end-line="79" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="136" column="20" lean-forward="true" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,9 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <element signature="e#42#55#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,37 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
           <caret line="223" column="10" lean-forward="true" selection-start-line="223" selection-start-column="10" selection-end-line="223" selection-end-column="10" />
-          <folding>
-            <element signature="e#8240#8253#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/article/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="e#477#830#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/article/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/article/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding>
-            <element signature="e#2937#2952#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,15 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/comment/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,52 +1107,110 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/comment/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/comment/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/article/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/comment/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/comment/reply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        <state relative-caret-position="300">
+          <caret line="37" column="62" lean-forward="false" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1187">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/comment/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/comment/views.py">
+    <entry file="file://$PROJECT_DIR$/apps/article/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+        <state relative-caret-position="1350">
+          <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
+            <element signature="e#477#830#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/article/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1483">
-          <caret line="357" column="19" lean-forward="true" selection-start-line="357" selection-start-column="19" selection-end-line="357" selection-end-column="19" />
+        <state relative-caret-position="4770">
+          <caret line="159" column="66" lean-forward="false" selection-start-line="159" selection-start-column="66" selection-end-line="159" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/comment/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/comment/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/article/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/article/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+          <folding>
+            <element signature="e#2992#3007#0" expanded="false" />
+            <element signature="e#3822#4629#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layui/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
           <folding />
         </state>
       </provider>

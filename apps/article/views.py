@@ -65,7 +65,7 @@ def article_list(request):
         # 按热度排序博文
         article_list = article_list.order_by('-total_views')
 
-    # 每页显示 1 篇文章
+    # 每页显示 6 篇文章
     paginator = Paginator(article_list, 6)
     # 获取 url 中的页码
     page = request.GET.get('page')
@@ -81,7 +81,7 @@ def article_list(request):
     }
     # render函数：载入模板，并返回context对象
     return render(request, 'article/list.html', context)
-
+    # return render(request,'layui/index.html',context)
 
 # 文章详情
 def article_detail(request, id):

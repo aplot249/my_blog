@@ -20,8 +20,8 @@ def post_comment(request, article_id, parent_comment_id=None):
         comment_form = CommentForm(request.POST)
         if comment_form.is_valid():
             new_comment = comment_form.save(commit=False)
-            new_comment.article = article
-            new_comment.user = request.user
+            new_comment.article = article       #对哪篇文章评论
+            new_comment.user = request.user     #写评论的人
 
             # 二级回复
             if parent_comment_id:
@@ -76,7 +76,7 @@ def post_comment(request, article_id, parent_comment_id=None):
         return HttpResponse("仅接受GET/POST请求。")
 
 
-
+@login_required(login_url='/userprofile/login/')
 def comment_delete(request):
     Comment.objects.get(id=request.POST.get('id')).delete()
     return HttpResponse({'e':'ok'})
