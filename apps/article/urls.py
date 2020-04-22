@@ -5,12 +5,11 @@ from . import views
 app_name = 'article'
 
 urlpatterns = [
+    path('article-head',views.article_head,name='article_head'),
     # 文章列表
     path('article-list/', views.article_list, name='article_list'),
     # 文章详情
     path('article-detail/<int:id>/', views.article_detail, name='article_detail'),
-    # 评论删除
-    # path('comment-delete/<int:id>/', views.comment_delete, name='comment_delete'),
     # 写文章
     path('article-create/', views.article_create, name='article_create'),
     # 删除文章

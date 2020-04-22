@@ -32,9 +32,11 @@ def user_login(request):
         else:
             return HttpResponse("账号或密码输入不合法")
     elif request.method == 'GET':
+        # next = request.GET.get('next')
+        # print(next)
         user_login_form = UserLoginForm()
         context = { 'form': user_login_form }
-        return render(request, 'userprofile/login.html', context)
+        return render(request, 'layui/login.html', context)
     else:
         return HttpResponse("请使用GET或POST请求数据")
 
@@ -62,7 +64,7 @@ def user_register(request):
     elif request.method == 'GET':
         user_register_form = UserRegisterForm()
         context = { 'form': user_register_form }
-        return render(request, 'userprofile/register.html', context)
+        return render(request, 'layui/register.html', context)
     else:
         return HttpResponse("请使用GET或POST请求数据")
 

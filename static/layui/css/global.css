@@ -487,15 +487,16 @@ body .fly-user-main{position: relative; width: 1085px; min-height: 600px; margin
 }
 
 @media screen and (max-width: 750px) {
-  .nav,
-  .fly-tab,
-  .fly-search,
-  .nav-user .unlogin,
-  .nav-user .avatar,
-  .nav-user>span,
-  .fly-list-li h2 span,
-  .fly-list-hint{display:none;}
-  
+  /*.nav,*/
+  /*.fly-tab,*/
+  /*.fly-search,*/
+  /*.nav-user .unlogin,*/
+  /*.nav-user .avatar,*/
+  /*.nav-user>span,*/
+  /*.fly-list-li h2 span,*/
+  /*.fly-list-hint{display:none;}*/
+  .nav{display:none}
+
   .nav-user{top: 18px;}
   .nav-user .out-login{display: block; margin-right: 15px;}
   .nav-message{left: 0;}
@@ -507,7 +508,8 @@ body .fly-user-main{position: relative; width: 1085px; min-height: 600px; margin
   .fly-edit span{padding: 0 6px;}
 
   .jie-add{position: relative; display: inline-block;}
-  .laypage-main a, .laypage-main span{display: none;}
+  /*.jie-add{ display: inline-block;}*/
+  /*.laypage-main a, .laypage-main span{display: none;}*/
   .laypage-main .laypage-prev, 
   .laypage-main .laypage-next{display: inline-block;}
 

@@ -32,39 +32,37 @@ from django.views.generic.edit import CreateView
 # logging.config.dictConfig(LOGGING)
 # logger = logging.getLogger('django.request')
 
+def article_head(request):
+    if request.user.is_authenticated:
+        status = True
+    else:
+        status = False
+    return render(request,'layui/head.html',{'status':status})
 
 # 文章列表
 def article_list(request):
     # 从 url 中提取查询参数
-    search = request.GET.get('search')
-    order = request.GET.get('order')
-    column = request.GET.get('column')
-    tag = request.GET.get('tag')
+    search = request.GET.get('search')  #搜索集
+    order = request.GET.get('order')    #排序
+    column = request.GET.get('column') #分类
+    tag = request.GET.get('tag')    #标签
     # 初始化查询集
     article_list = ArticlePost.objects.all()
     # 搜索查询集
     if search:
-        article_list = article_list.filter(
-            Q(title__icontains=search) |
-            Q(body__icontains=search)
-        )
+        article_list = article_list.filter(Q(title__icontains=search) | Q(body__icontains=search))
     else:
-        # 将 search 参数重置为空
-        search = ''
-
+        search = ''     # 将 search 参数重置为空
     # 栏目查询集
     if column is not None and column.isdigit():
         article_list = article_list.filter(column=column)
-
     # 标签查询集
     if tag and tag != 'None':
         article_list = article_list.filter(tags__name__in=[tag])
-
     # 查询集排序
     if order == 'total_views':
         # 按热度排序博文
         article_list = article_list.order_by('-total_views')
-
     # 每页显示 6 篇文章
     paginator = Paginator(article_list, 6)
     # 获取 url 中的页码
@@ -80,8 +78,8 @@ def article_list(request):
         'tag': tag,
     }
     # render函数：载入模板，并返回context对象
-    return render(request, 'article/list.html', context)
-    # return render(request,'layui/index.html',context)
+    # return render(request, 'article/list.html', context)
+    return render(request,'layui/index.html',context)
 
 # 文章详情
 def article_detail(request, id):
@@ -129,9 +127,8 @@ def article_detail(request, id):
         'comment_form': comment_form,
     }
     # 载入模板，并返回context对象
-    return render(request, 'article/detail.html', context)
-
-
+    # return render(request, 'article/detail.html', context)
+    return render(request,'layui/detail.html',context)
 
 
 # 写文章的视图
@@ -151,6 +148,7 @@ def article_create(request):
                 # 保存文章栏目
                 new_article.column = ArticleColumn.objects.get(id=request.POST['column'])
             # 将新文章保存到数据库中
+            # article_post_form.tags
             new_article.save()
             # 保存 tags 的多对多关系
             article_post_form.save_m2m()
@@ -161,6 +159,7 @@ def article_create(request):
             return HttpResponse("表单内容有误，请重新填写。")
     # 如果用户请求获取数据
     else:
+
         # 创建表单类实例
         article_post_form = ArticlePostForm()
         # 文章栏目
@@ -168,7 +167,8 @@ def article_create(request):
         # 赋值上下文
         context = { 'article_post_form': article_post_form, 'columns': columns }
         # 返回模板
-        return render(request, 'article/create.html', context)
+        # return render(request, 'article/create.html', context)
+        return render(request, 'layui/add.html', context)
 
 
 # 删除文章，此方式有 csrf 攻击风险
@@ -207,14 +207,11 @@ def article_update(request, id):
     GET方法进入初始表单页面
     id： 文章的 id
     """
-
     # 获取需要修改的具体文章对象
     article = ArticlePost.objects.get(id=id)
-
     # 过滤非作者的用户
     if request.user != article.author:
         return HttpResponse("抱歉，你无权修改这篇文章。")
-
     # 判断用户是否为 POST 提交表单数据
     if request.method == "POST":
         # 将提交的数据赋值到表单实例中
@@ -233,7 +230,7 @@ def article_update(request, id):
 
             if request.FILES.get('avatar'):
                 article.avatar = request.FILES.get('avatar')
-
+            # [article.tags.remove(i) for i in article.tags.all()]
             article.tags.set(*request.POST.get('tags').split(','), clear=True)
             article.save()
             # 完成后返回到修改后的文章中。需传入文章的 id 值
@@ -241,7 +238,6 @@ def article_update(request, id):
         # 如果数据不合法，返回错误信息
         else:
             return HttpResponse("表单内容有误，请重新填写。")
-
     # 如果用户 GET 请求获取数据
     else:
         # 创建表单类实例
@@ -258,7 +254,8 @@ def article_update(request, id):
         }
 
         # 将响应返回到模板中
-        return render(request, 'article/update.html', context)
+        # return render(request, 'article/update.html', context)
+        return render(request, 'layui/update.html', context)
 
 
 # 点赞数 +1

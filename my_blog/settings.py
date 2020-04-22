@@ -198,6 +198,8 @@ DEFAULT_FROM_EMAIL = 'your email'
 
 CKEDITOR_CONFIGS = {
     'default': {
+        'width':'auto',
+        'height':'200px',
         'update': ['Image', 'Update', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar', 'PageBreak'],
         'skin': 'moono',
         'toolbar_Basic': [
