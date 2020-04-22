@@ -29,10 +29,11 @@ form {margin: 0;}
 				<div class="fly-panel detail-box">
 					<h1>{{ article.title }}</h1>
 					<div class="fly-tip fly-detail-hint" data-id="">
-                        <span>标签：</span>{% for tag in article.tags.all %}
+                        <span>标签：</span>
+                        {% for tag in article.tags.all %}
 {#						<span class="fly-tip-stick">{{ tag }}</span>#}
 {#                        <span class="jie-admin"><a href="">{{ tag }}</a></span>#}
-                        <span class="layui-btn layui-btn-mini jie-admin"><a href="">{{ tag }}</a></span>
+                        <span class="layui-btn layui-btn-mini jie-admin"><a href="{% url 'home' %}?tag={{ tag }}">{{ tag }}</a></span>
                         {% endfor %}
                         <div class="fly-list-hint"><i class="iconfont" title="回答">&#xe60c;</i>{{ comments.count }}</div>
 					</div>

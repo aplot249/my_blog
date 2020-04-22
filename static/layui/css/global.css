@@ -98,7 +98,7 @@ html .fly-full{margin-top: 65px;}
 
 /* 头部 */
 .header{position:fixed; z-index: 10000; left:0; top:0; width:100%; height:65px; background-color:rgba(109, 60, 150, 1);}
-.header .main{position:relative; margin:0 auto; min-height: 0;}
+.header .main{position:relative; margin:0 auto; min-height: 0;height:65px;}
 .header .title{height: 65px;line-height: 65px;display: block;color: white;font-size: 17px;}
 .nav{position:absolute; left: 220px; top: 18px;}
 .nav a{padding: 0 20px; font-size:14px; color:#999;}
@@ -507,7 +507,7 @@ body .fly-user-main{position: relative; width: 1085px; min-height: 600px; margin
   .fly-detail-hint .fly-list-hint{display: block;}
   .fly-edit span{padding: 0 6px;}
 
-  .jie-add{position: relative; display: inline-block;}
+  /*.jie-add{position: relative; display: inline-block;}*/
   /*.jie-add{ display: inline-block;}*/
   /*.laypage-main a, .laypage-main span{display: none;}*/
   .laypage-main .laypage-prev, 

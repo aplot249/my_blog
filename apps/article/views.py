@@ -46,6 +46,7 @@ def article_list(request):
     order = request.GET.get('order')    #排序
     column = request.GET.get('column') #分类
     tag = request.GET.get('tag')    #标签
+    columns = ArticleColumn.objects.all()
     # 初始化查询集
     article_list = ArticlePost.objects.all()
     # 搜索查询集
@@ -75,6 +76,7 @@ def article_list(request):
         'order': order,
         'search': search,
         'column': column,
+        'columns':columns,
         'tag': tag,
     }
     # render函数：载入模板，并返回context对象
@@ -221,17 +223,17 @@ def article_update(request, id):
             # 保存新写入的 title、body 数据并保存
             article.title = request.POST['title']
             article.body = request.POST['body']
-
             if request.POST['column'] != 'none':
                 # 保存文章栏目
                 article.column = ArticleColumn.objects.get(id=request.POST['column'])
             else:
                 article.column = None
-
             if request.FILES.get('avatar'):
                 article.avatar = request.FILES.get('avatar')
-            [article.tags.remove(i) for i in article.tags.all()]
-            article.tags.set(*request.POST.get('tags').split(','), clear=True)
+            # [article.tags.remove(i) for i in article.tags.all()]
+            tag_list = request.POST.get('tags').replace(' ','').split(',')
+            print(*tag_list)
+            article.tags.set(*tag_list, clear=True)
             article.save()
             # 完成后返回到修改后的文章中。需传入文章的 id 值
             return redirect("article:article_detail", id=id)

@@ -13,43 +13,36 @@
 		</style>
 	</head>
 	<body>
+
 		<div class="header">
 			<div class="main">
 				<a class="title" href="{% url 'article:article_list' %}" target="_parent" title="Three个人博客">
-					<i class="iconfont icon-jiaoliu layui-hide-xs" style="font-size: 22px;"></i>Three个人博客</a>
+					<i class="iconfont icon-jiaoliu layui-hide-xs" style="font-size: 22px;">Three个人博客</i>
+                </a>
 {#				<div class="nav">#}
 {#					<a class="nav-this" href="index.html">#}
-{#						<i class="iconfont icon-wenda"></i></a>#}
+{#						<i class="iconfont icon-wenda"></i>#}
+{#                    </a>#}
 {#				</div>#}
-				<div class="nav-user">
+                <div class="nav-user">
                     {% if status %}
-
-{#                    	作者：634072111@qq.com#}
-{#                    	时间：2017-12-28#}
-{#                    	描述：登录后的样子#}
-                   
-					<a class="avatar" href="">
-                        <img src="http://q1.qlogo.cn/g?b=qq&amp;nk={{ request.user.email }}&amp;s=100" alt="">
-{#						<img src="res/images/avatar/11.jpg">#}
-						<cite>{{ request.user.username }}</cite>
-					</a>
-					<div class="nav">
-						<a href="{% url 'userprofile:logout' %}"><i class="iconfont icon-tuichu" style="top: 0; font-size: 22px;"></i>退出</a>
-					</div>
+                        <a class="avatar layui-sm-6" >
+                            <img src="http://q1.qlogo.cn/g?b=qq&amp;nk={{ request.user.email }}&amp;s=100" alt="">
+                            <cite>{{ request.user.username }}</cite>
+                        </a>
+                        <div class="nav">
+                            <a href="{% url 'userprofile:logout' %}"><i class="iconfont icon-tuichu" style="top: 0; font-size: 22px;"></i>退出</a>
+                        </div>
 					{% else %}
-					<!--
-                    	作者：634072111@qq.com
-                    	时间：2017-12-28
-                    	描述：未登录的样子
-                    -->
-                    <a class="iconfont icon-touxiang layui-hide-xs" style="margin-top: 4px; display: inline-block;"></a>
-                    <div class="nav"  style="font-size:14px;color: white;margin-top: -5px;margin-left: 1px; "  />
-                    	<a href="{% url 'userprofile:login' %}"  target="_parent" >登录</a>
-                    	<a href="{% url 'userprofile:register' %}" target="_parent" >注册</a>
-                    </div>
+                        <a class="iconfont icon-touxiang layui-hide-xs" style="margin-top: 4px; display: inline-block;"></a>
+                        <div class="nav"  style="font-size:14px;color: white;margin-top: -5px;margin-left: 1px; ">
+                            <a href="{% url 'userprofile:login' %}"  target="_parent" >登录</a>
+                            <a href="{% url 'userprofile:register' %}" target="_parent" >注册</a>
+                        </div>
                     {% endif %}
 				</div>
 			</div>
-		</div>
-	</body>
+        </div>
+
+    </body>
 </html>
