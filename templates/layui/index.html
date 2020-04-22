@@ -22,9 +22,10 @@
                     <input class="layui-input"  autocomplete="off" placeholder="搜索内容" name="search"  required>
                     <button  class="layui-btn  layui-btn-danger jie-add">搜索</button>
                 </form>
+{#                    <button href="" class="layui-btn jie-add">全部</button>#}
                 <span>
 {#                    <a href="" class="tab-this">全部</a>#}
-                    <a href="{% url 'article:article_create' %}" style="background-color: #7abc2c">发新帖</a>
+                    <a href="{% url 'article:article_create' %}" style="background-color: dodgerblue">发新帖</a>
                     <a href="{% url 'article:article_list' %}?search={{ search }}&column={{ column }}&tag={{ tag }}">最新</a>
                     <a href="{% url 'article:article_list' %}?order=total_views&search={{ search }}&column={{ column }}&tag={{ tag }}">最热</a>
                     {% for col in columns %}

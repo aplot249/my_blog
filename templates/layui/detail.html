@@ -39,7 +39,7 @@ form {margin: 0;}
 					</div>
 					<div class="detail-about">
 						<a class="jie-user" href="">
-                            <img src="http://q1.qlogo.cn/g?b=qq&amp;nk={{ article.author.email }}&amp;s=100" alt=""><cite> 压缩 <em>{{ article.created }}</em> </cite>
+                            <img src="http://q1.qlogo.cn/g?b=qq&amp;nk={{ article.author.email }}&amp;s=100" alt=""><cite> {{ article.author }} <em>{{ article.created }}</em> </cite>
                         </a>
 						<div class="detail-hits">
                             {% ifequal article.author request.user %}
@@ -118,16 +118,20 @@ form {margin: 0;}
 
 		<div class="edge">
 			<dl class="fly-panel fly-list-one">
-				<dt class="fly-panel-title">最近热帖</dt>
-				<dd>
-					<a href="">使用 layui 秒搭后台大布局（基本结构）</a> <span><i class="iconfont">&#xe60b;</i> 6087</span>
-				</dd>
+				<dt class="fly-panel-title">最新帖子</dt>
+                {% for ar in article_all %}
+                    <dd style="height: 30px">
+                        <a href="">{{ ar.title }}</a> <span style="float: right"><i class="iconfont">&#xe60b;</i>{{ ar.total_views }} </span>
+                    </dd>
+                {% endfor %}
 			</dl>
 			<dl class="fly-panel fly-list-one">
-				<dt class="fly-panel-title">近期热议</dt>
-				<dd>
-					<a href="">使用 layui 秒搭后台大布局之基本结构</a> <span><i class="iconfont">&#xe60c;</i> 96</span>
-				</dd>
+				<dt class="fly-panel-title">最热帖子</dt>
+                {% for ar in article_all_orderby_totalviews %}
+                    <dd style="height: 30px">
+                        <a href="">{{ ar.title }}</a><span style="float: right"><i class="iconfont">&#xe60c;</i>{{ ar.total_views }}</span>
+                    </dd>
+                {% endfor %}
 			</dl>
 		</div>
 	</div>

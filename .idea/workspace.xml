@@ -4,11 +4,9 @@
     <list default="true" id="c3fc45ec-8b4e-4e0d-ae14-662faf456ea0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/article/views.py" afterPath="$PROJECT_DIR$/apps/article/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/layui/css/global.css" afterPath="$PROJECT_DIR$/static/layui/css/global.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layui/detail.html" afterPath="$PROJECT_DIR$/templates/layui/detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layui/head.html" afterPath="$PROJECT_DIR$/templates/layui/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layui/index.html" afterPath="$PROJECT_DIR$/templates/layui/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layui/update.html" afterPath="$PROJECT_DIR$/templates/layui/update.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,12 +35,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/article/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="125" column="36" lean-forward="false" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
+              <folding>
+                <element signature="e#18#82#0" expanded="true" />
+                <element signature="e#938#1089#0" expanded="false" />
+                <element signature="e#3270#3285#0" expanded="false" />
+                <element signature="e#6374#6465#1" expanded="false" />
+                <element signature="e#8392#8585#0" expanded="false" />
+                <element signature="e#8627#8847#0" expanded="false" />
+                <element signature="e#8875#9091#0" expanded="false" />
+                <element signature="e#9145#9418#0" expanded="false" />
+                <element signature="e#9462#9864#0" expanded="false" />
+                <element signature="e#9908#10081#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layui/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="259">
+              <caret line="125" column="28" lean-forward="true" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#dd#0;n#dl#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#dd#0;n#dl#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dd#0;n#dl#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#dd#0;n#dl#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +74,8 @@
       <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layui/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="483">
+              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,32 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/article/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-              <folding>
-                <element signature="e#18#82#0" expanded="true" />
-                <element signature="e#938#1089#0" expanded="false" />
-                <element signature="e#3226#3241#0" expanded="false" />
-                <element signature="e#6209#6300#1" expanded="false" />
-                <element signature="e#8227#8420#0" expanded="false" />
-                <element signature="e#8462#8682#0" expanded="false" />
-                <element signature="e#8710#8926#0" expanded="false" />
-                <element signature="e#8980#9253#0" expanded="false" />
-                <element signature="e#9297#9699#0" expanded="false" />
-                <element signature="e#9743#9916#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/layui/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="101" lean-forward="false" selection-start-line="26" selection-start-column="101" selection-end-line="26" selection-end-column="101" />
+            <state relative-caret-position="2310">
+              <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -116,6 +119,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_blog/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="105" column="16" lean-forward="false" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -138,6 +151,7 @@
       <find>香菇{</find>
       <find>header</find>
       <find>jie-add</find>
+      <find>压缩</find>
     </findStrings>
     <replaceStrings>
       <replace>articles</replace>
@@ -192,14 +206,14 @@
         <option value="$PROJECT_DIR$/apps/userprofile/views.py" />
         <option value="$PROJECT_DIR$/templates/layui/add.html" />
         <option value="$USER_HOME$/AppData/Local/Temp/qq1788lover活雷锋.url" />
-        <option value="$PROJECT_DIR$/my_blog/settings.py" />
         <option value="$PROJECT_DIR$/templates/layui/update.html" />
         <option value="$PROJECT_DIR$/my_blog/urls.py" />
-        <option value="$PROJECT_DIR$/templates/layui/detail.html" />
-        <option value="$PROJECT_DIR$/apps/article/views.py" />
-        <option value="$PROJECT_DIR$/templates/layui/head.html" />
         <option value="$PROJECT_DIR$/static/layui/css/global.css" />
+        <option value="$PROJECT_DIR$/my_blog/settings.py" />
+        <option value="$PROJECT_DIR$/templates/layui/head.html" />
         <option value="$PROJECT_DIR$/templates/layui/index.html" />
+        <option value="$PROJECT_DIR$/apps/article/views.py" />
+        <option value="$PROJECT_DIR$/templates/layui/detail.html" />
       </list>
     </option>
   </component>
@@ -256,7 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,7 +284,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -288,15 +302,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layui" />
+              <option name="myItemId" value="apps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="article" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -623,7 +647,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13304721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -634,7 +658,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15219842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17136414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -915,14 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="201" column="20" lean-forward="false" selection-start-line="201" selection-start-column="20" selection-end-line="201" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/comment/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -987,58 +1003,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10530">
-          <caret line="363" column="0" lean-forward="false" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layui/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/article/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
           <folding>
             <element signature="e#477#830#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/article/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-            <element signature="e#938#1089#0" expanded="false" />
-            <element signature="e#3226#3241#0" expanded="false" />
-            <element signature="e#6209#6300#1" expanded="false" />
-            <element signature="e#8227#8420#0" expanded="false" />
-            <element signature="e#8462#8682#0" expanded="false" />
-            <element signature="e#8710#8926#0" expanded="false" />
-            <element signature="e#8980#9253#0" expanded="false" />
-            <element signature="e#9297#9699#0" expanded="false" />
-            <element signature="e#9743#9916#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layui/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1051,10 +1021,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my_blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="105" column="16" lean-forward="false" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="363" column="0" lean-forward="false" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layui/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/article/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="125" column="36" lean-forward="false" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
+          <folding>
+            <element signature="e#18#82#0" expanded="true" />
+            <element signature="e#938#1089#0" expanded="false" />
+            <element signature="e#3270#3285#0" expanded="false" />
+            <element signature="e#6374#6465#1" expanded="false" />
+            <element signature="e#8392#8585#0" expanded="false" />
+            <element signature="e#8627#8847#0" expanded="false" />
+            <element signature="e#8875#9091#0" expanded="false" />
+            <element signature="e#9145#9418#0" expanded="false" />
+            <element signature="e#9462#9864#0" expanded="false" />
+            <element signature="e#9908#10081#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layui/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="125" column="28" lean-forward="true" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#dd#0;n#dl#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#dd#0;n#dl#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dd#0;n#dl#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#dd#0;n#dl#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layui/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="101" lean-forward="false" selection-start-line="26" selection-start-column="101" selection-end-line="26" selection-end-column="101" />
+        <state relative-caret-position="2310">
+          <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

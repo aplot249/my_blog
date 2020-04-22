@@ -65,7 +65,7 @@ def article_list(request):
         # 按热度排序博文
         article_list = article_list.order_by('-total_views')
     # 每页显示 6 篇文章
-    paginator = Paginator(article_list, 8)
+    paginator = Paginator(article_list, 7)
     # 获取 url 中的页码
     page = request.GET.get('page')
     # 将导航对象相应的页码内容返回给 articles
@@ -88,6 +88,7 @@ def article_detail(request, id):
     # 取出相应的文章
     # article = ArticlePost.objects.get(id=id)
     # logger.warning('Something went wrong!')
+    article_all = ArticlePost.objects.all()
     article = get_object_or_404(ArticlePost, id=id)
     # 取出文章评论
     comments = Comment.objects.filter(article=id)
@@ -122,6 +123,8 @@ def article_detail(request, id):
     # 需要传递给模板的对象
     context = {
         'article': article,
+        'article_all':article_all[:7],
+        'article_all_orderby_totalviews':article_all.order_by('total_views')[:7],
         # 'toc': md.toc,
         'comments': comments,
         'pre_article': pre_article,
