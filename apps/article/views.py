@@ -230,7 +230,7 @@ def article_update(request, id):
 
             if request.FILES.get('avatar'):
                 article.avatar = request.FILES.get('avatar')
-            # [article.tags.remove(i) for i in article.tags.all()]
+            [article.tags.remove(i) for i in article.tags.all()]
             article.tags.set(*request.POST.get('tags').split(','), clear=True)
             article.save()
             # 完成后返回到修改后的文章中。需传入文章的 id 值
