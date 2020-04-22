@@ -2,21 +2,292 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3fc45ec-8b4e-4e0d-ae14-662faf456ea0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/article/urls.py" afterPath="$PROJECT_DIR$/apps/article/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/article/views.py" afterPath="$PROJECT_DIR$/apps/article/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/userprofile/views.py" afterPath="$PROJECT_DIR$/apps/userprofile/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_blog/settings.py" afterPath="$PROJECT_DIR$/my_blog/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/layui/css/global.css" afterPath="$PROJECT_DIR$/static/layui/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/article/list.html" afterPath="$PROJECT_DIR$/templates/article/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/article/update.html" afterPath="$PROJECT_DIR$/templates/article/update.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layui/add.html" afterPath="$PROJECT_DIR$/templates/layui/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layui/detail.html" afterPath="$PROJECT_DIR$/templates/layui/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layui/head.html" afterPath="$PROJECT_DIR$/templates/layui/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layui/index.html" afterPath="$PROJECT_DIR$/templates/layui/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layui/login.html" afterPath="$PROJECT_DIR$/templates/layui/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layui/register.html" afterPath="$PROJECT_DIR$/templates/layui/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layui/update.html" afterPath="$PROJECT_DIR$/templates/layui/update.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/css/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/css/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/css/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/00.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/avatar/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/fly.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/fork.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/layim.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/logo-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/other/1437100018023.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/other/study-a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/pay.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/images/uer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/100.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/101.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/102.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/103.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/104.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/105.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/106.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/107.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/108.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/109.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/110.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/111.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/112.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/113.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/114.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/115.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/116.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/117.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/118.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/119.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/120.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/121.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/122.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/123.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/124.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/125.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/126.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/127.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/128.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/129.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/130.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/131.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/132.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/133.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/134.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/74.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/75.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/76.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/77.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/78.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/79.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/80.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/82.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/83.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/84.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/85.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/86.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/87.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/88.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/89.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/90.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/91.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/92.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/93.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/94.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/95.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/96.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/97.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/98.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/99.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/emoticons/qq.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/image/images/align_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/image/images/align_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/image/images/align_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/image/images/refresh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/skins/common/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/skins/common/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/skins/default/default.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/skins/tinymce/tinymce.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/modules/laydate/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/modules/layer/default/icon-ext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/modules/layer/default/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/modules/layer/default/loading-0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/modules/layer/default/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/modules/layer/default/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/font/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/font/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/font/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/images/face/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/css/full.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/css/global.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/css/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/kindeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/image/image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/plugins/link/link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/skins/common/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/skins/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/js/skins/tinymce.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/layui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/layui.mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/modules/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/modules/laydate/laydate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/css/modules/layer/default/layer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/font/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/dest/layui.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/flow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/laydate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/layedit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/laypage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/laytpl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/mobile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/lay/modules/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collect_static/layui/layui/layui.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,8 +382,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/article/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="66" column="41" lean-forward="false" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+            <state relative-caret-position="464">
+              <caret line="68" column="34" lean-forward="true" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
               <folding>
                 <element signature="e#18#82#0" expanded="true" />
                 <element signature="e#938#1089#0" expanded="false" />
@@ -260,7 +531,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,11 +545,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layui" />
+              <option name="myItemId" value="collect_static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,16 +562,16 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps\comment" />
-      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\my_blog\collect_static" />
       <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\my_blog\templates\layui" />
       <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\my_blog\static\layui" />
       <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\my_blog" />
       <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps\userprofile" />
-      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps\notice" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps\comment" />
+      <recent name="E:\myonedrive\OneDrive - business\tongbu\document\myproject\django_blog_tutorial\apps" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.django_blog_tutorial">
@@ -597,7 +864,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13143776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1018,8 +1285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/article/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="66" column="41" lean-forward="false" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+        <state relative-caret-position="464">
+          <caret line="68" column="34" lean-forward="true" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
           <folding>
             <element signature="e#18#82#0" expanded="true" />
             <element signature="e#938#1089#0" expanded="false" />
