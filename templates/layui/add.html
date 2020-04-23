@@ -13,7 +13,34 @@
 </head>
 <body>
 
-<iframe  src="{% url 'article:article_head' %}" scrolling="no" width="100%" height="65px" ></iframe>
+{#<iframe  src="{% url 'article:article_head' %}" scrolling="no" width="100%" height="65px" ></iframe>#}
+<div style="height: 65px;margin-top: 10px">
+    <div class="header">
+        <div class="main">
+            <a class="title" href="{% url 'article:article_list' %}" target="_parent" title="Three个人博客">
+                <i class="iconfont icon-jiaoliu layui-hide-xs" style="font-size: 20px;margin-left: 12px">Three个人博客</i>
+            </a>
+            <div class="nav-user">
+{#                {% if status %}#}
+                {% if request.user.is_authenticated %}
+                    <a class="avatar layui-sm-6" >
+                        <img src="http://q1.qlogo.cn/g?b=qq&amp;nk={{ request.user.email }}&amp;s=100" alt="">
+                        <cite>{{ request.user.username }}</cite>
+                    </a>
+                    <div class="nav">
+                        <a href="{% url 'userprofile:logout' %}"><i class="iconfont icon-tuichu" style="top: 0; font-size: 22px;"></i>退出</a>
+                    </div>
+                {% else %}
+                    <a class="iconfont icon-touxiang layui-hide-xs" style="margin-top: 4px; display: inline-block;"></a>
+                    <div class="nav"  style="font-size:14px;color: white;margin-top: -5px;margin-left: 1px; ">
+                        <a href="{% url 'userprofile:login' %}"  target="_parent" >登录</a>
+                        <a href="{% url 'userprofile:register' %}" target="_parent" >注册</a>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="main layui-clear">
   <div class="fly-panel" pad20>
