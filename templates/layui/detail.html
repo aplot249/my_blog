@@ -121,7 +121,7 @@ form {margin: 0;}
 				<dt class="fly-panel-title">最新帖子</dt>
                 {% for ar in article_all %}
                     <dd style="height: 30px">
-                        <a href="">{{ ar.title }}</a> <span style="float: right"><i class="iconfont">&#xe60b;</i>{{ ar.total_views }} </span>
+                        <a href="">{{ ar.title }}</a> <span style="float: right"><i class="iconfont">&#xe60c;</i>{{ ar.comments_set | length }} </span>
                     </dd>
                 {% endfor %}
 			</dl>
@@ -129,7 +129,7 @@ form {margin: 0;}
 				<dt class="fly-panel-title">最热帖子</dt>
                 {% for ar in article_all_orderby_totalviews %}
                     <dd style="height: 30px">
-                        <a href="">{{ ar.title }}</a><span style="float: right"><i class="iconfont">&#xe60c;</i>{{ ar.total_views }}</span>
+                        <a href="">{{ ar.title }}</a><span style="float: right"><i class="iconfont">&#xe60c;</i>{{ ar.comments_set | length }}</span>
                     </dd>
                 {% endfor %}
 			</dl>
